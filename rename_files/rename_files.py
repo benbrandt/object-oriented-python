@@ -2,10 +2,10 @@ import os
 
 def rename_files():
     #(1) get file names from a folder
-    file_list = os.listdir(r"C:\Users\Ben\Downloads\prank\prank")
+    file_list = os.listdir("images")
     saved_path = os.getcwd()
     print("Current Working Directory is " + saved_path)
-    os.chdir(r"C:\Users\Ben\Downloads\prank\prank")
+    os.chdir("images")
     
     #(2) for each file, rename filename
     for file_name in file_list:
