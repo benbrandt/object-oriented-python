@@ -1,5 +1,5 @@
-import media
 import fresh_tomatoes
+import media
 
 toy_story = media.Movie("Toy Story",
                     "A story of a boy and his toys that come to life.",
@@ -30,3 +30,6 @@ midnight_in_paris = media.Movie("Midnight in Paris",
                     "Going back in time to meet authors",
                     "http://upload.wikimedia.org/wikipedia/en/9/9f/Midnight_in_Paris_Poster.jpg",
                     "https://www.youtube.com/watch?v=atLg2wQQxvU")
+
+movies = [toy_story, avatar, inception, school_of_rock, ratatouille, midnight_in_paris]
+fresh_tomatoes.open_movies_page(movies)
